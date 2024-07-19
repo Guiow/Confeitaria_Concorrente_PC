@@ -1,0 +1,70 @@
+/* estiliza botao reset */
+.button
+{
+  -fx-background-color: transparent;
+  -fx-background-image: url("../images/imagensControle/resetButton.png");
+}
+
+/* muda o botao reset quando passado o mouse por cima */
+.button:hover
+{
+  -fx-background-image: url("../images/imagensControle/resetButtonHover.png");
+  -fx-cursor: hand;
+}
+
+
+/* estiliza o thumb dos sliders */
+.slider .thumb
+{
+  -fx-padding: 16px;
+  -fx-background-color: transparent;
+  -fx-border-radius: 0px;
+  -fx-cursor: hand;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 15, 0, 0, 5);
+}
+
+/* estiliza o track dos sliders */
+.slider .track
+{
+  -fx-border-color: black;
+  -fx-border-radius: 2px;
+}
+
+/* muda o cursor quando passa o mouse por cima do track do slider */
+.slider .track:hover
+{
+  -fx-cursor: hand;
+}
+
+/* estiliza o track dos sliders que representa a parde do produtor */
+.sliderProdutor .track
+{
+  -fx-background-color: #7bab0a;
+}
+
+/* estiliza o track dos sliders que representa a parde do consumidor */
+.sliderConsumidor .track
+{
+  -fx-background-color: #b5040c;
+}
+
+/* altera icone dos thumbs de cada slider */
+#slider0 .thumb
+{
+  -fx-background-image: url("../images/imagensControle/iconeBolo.png");
+}
+
+#slider1 .thumb
+{
+  -fx-background-image: url("../images/imagensControle/iconeFuncD.png");
+}
+
+#slider2 .thumb
+{
+  -fx-background-image: url("../images/imagensControle/iconeCaminhao.png");
+}
+
+#slider3 .thumb
+{
+  -fx-background-image: url("../images/imagensControle/iconeFuncR.png");
+}
